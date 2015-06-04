@@ -2,7 +2,7 @@ using System;
 using System.Text;
 
 
-class Persons
+class Person
 {
     private int age;
     private string name;
@@ -62,14 +62,14 @@ class Persons
             
         }
     }
-    public Persons(string name, int age, string email)
+    public Person(string name, int age, string email)
     {
         this.Name = name;
         this.Age = age;
         this.Email = email;
     }
     
-    public Persons(string name,int age)
+    public Person(string name,int age)
     {
         this.Name = name;
         this.Age = age;
