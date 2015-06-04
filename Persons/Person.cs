@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 
-class Person
+class PersonsMain
 {
     static void Main()
     {
@@ -20,7 +20,7 @@ class Person
             email = null;
         }
         
-        Persons person = new Persons(name,age,email);
+        Person person = new Persons(name,age,email);
        
         
         Console.WriteLine(person);
